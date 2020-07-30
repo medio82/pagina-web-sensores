@@ -1,0 +1,143 @@
+html *{
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color:#0A000A;
+	color: #FFFFFF;
+}
+
+h1{
+	font-size:70px;
+	color:#030a64;
+}
+
+h2{
+    font-size:50px;
+    color:#022c01;
+	
+}
+
+header{
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 20px;	
+
+}
+
+
+main{
+	height: 50em;
+	flex:5;
+	display:flex;
+	flex-direction: column;
+
+}
+
+section{
+	
+	flex:2;
+	display:flex;
+	flex-direction: column;
+	
+
+  align-items: center;
+	
+
+}
+
+#TEMP{
+	flex:1;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS0SB-FbJtaU1SbJaSnDk4S8gcj0tiTd_7DVg&usqp=CAU");
+	background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#HUM{
+	flex:1;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR413Rm8y6sd_m6mkGt896iUs09sezG2QBaTw&usqp=CAU");
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#GAS{
+	flex:1;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS9mnT2mYx3ES1R3oxpM6DJ7W1Q5cEarFCvzw&usqp=CAU");
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#LIGHT{
+	flex:1;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTJFXPF5dBq44cZBcyOhmfNxuMxf9SFkBveSw&usqp=CAU");
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#LED{
+	flex:1;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRjapWWrjir5a6b2AAO5eH7J_L3udz8D8qZ7w&usqp=CAU");
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.myButton {
+	box-shadow:inset 0px 17px 36px -19px #0c0c0c;
+	background:linear-gradient(to bottom, #0c0c0c 5%, #9ea0a5 100%);
+	background-color:#0a0a0a;
+	border-radius:17px;
+	border:1px solid #0d0d0e;
+	display:inline-block;
+	cursor:pointer;
+	color:#080808;
+	font-family:Arial;
+	font-size:28px;
+	padding:19px 61px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #0c0c0c;
+	width: 	40%;
+	align-self: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #084918 5%, #084918 100%);
+	background-color:#084918;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton1 {
+	box-shadow:inset 0px 17px 36px -19px #0c0c0c;
+	background:linear-gradient(to bottom, #0c0c0c 5%, #9ea0a5 100%);
+	background-color:#0a0a0a;
+	border-radius:17px;
+	border:1px solid #0d0d0e;
+	display:inline-block;
+	cursor:pointer;
+	color:#080808;
+	font-family:Arial;
+	font-size:28px;
+	padding:19px 61px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #0c0c0c;
+	width: 	40%;
+	align-self: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+.myButton1:hover {
+	background:linear-gradient(to bottom, #fa0404 5%, #fa0404 100%);
+	background-color:#fa0404;
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
+}

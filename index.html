@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Domotic Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://www.gstatic.com/firebasejs/7.17.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.17.0/firebase-analytics.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.17.0/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.17.0/firebase-database.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<header>Lectura en tiempo real de Sensores</header>
+	<main>
+		<section id="TEMP">
+			<h1>Temperatura</h1>
+			<h2 id="temperatura">------</h2>
+		</section>
+		<section id="HUM">
+			<h1>Humedad</h1>
+			<h2 id="humedad">------</h2>
+		</section>
+		<section id="GAS">
+			<h1>Gas</h1>
+			<h2 id = "gas">------</h2>
+		</section>
+		<section id="LIGHT">
+			<h1>Luz</h1>
+			<h2 id="luz">------</h2>
+		</section>
+		<section id="LED">
+			<h1>Estado LED</h1>
+			<h2 id="led">------</h2>
+		</section>
+		<section>
+			<button class="myButton" onclick="encender()"> Encender</button>
+			<button class="myButton1" onclick="apagar()"> Apagar</button>
+		</section>
+
+	</main>
+</body>
+</html>
